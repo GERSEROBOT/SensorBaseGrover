@@ -1,0 +1,125 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Botao-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Sensor Botão para Shield Sensor Base Grover GERSE"
+Date "2017-07-11"
+Rev "1.2"
+Comp "GERSE - Grupo de Estudos em Robótica e sistemas Embarcados"
+Comment1 "Facebook: www.facebook.com/gerserobot/ "
+Comment2 "Instagram: www.instagram.com/gerserobot/  "
+Comment3 "Website: gerserobotica.com"
+Comment4 "Projetista: @pedro_ibs (www.instagram.com/pedro_ibs/)"
+$EndDescr
+$Comp
+L SW_PUSH SW1
+U 1 1 594D8697
+P 5550 1200
+F 0 "SW1" H 5700 1310 50  0000 C CNN
+F 1 "SW_PUSH" H 5550 1120 50  0000 C CNN
+F 2 "MY_kicad:BUTTON2P" H 5550 1200 50  0001 C CNN
+F 3 "" H 5550 1200 50  0000 C CNN
+	1    5550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P6
+U 1 1 594D8BEF
+P 4750 1150
+F 0 "P6" H 4750 900 50  0000 C CNN
+F 1 "CON5" V 4850 1150 50  0000 C CNN
+F 2 "MY_kicad:molex_2510" H 4750 1150 50  0001 C CNN
+F 3 "" H 4750 1150 50  0000 C CNN
+	1    4750 1150
+	0    1    -1   0   
+$EndComp
+Text GLabel 4600 1450 3    39   Input ~ 0
+GND
+Wire Wire Line
+	4600 1350 4600 1450
+Text GLabel 4700 1450 3    39   Input ~ 0
+VCC
+Wire Wire Line
+	4700 1450 4700 1350
+Text GLabel 4800 1450 3    39   Input ~ 0
+P10
+Wire Wire Line
+	4800 1450 4800 1350
+Wire Wire Line
+	4900 1350 4900 1450
+$Comp
+L SP6T SW2
+U 1 1 594D91BC
+P 4450 2300
+F 0 "SW2" H 5450 2650 50  0000 C CNN
+F 1 "SP6T" H 5700 2650 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_x2" H 3825 2475 50  0001 C CNN
+F 3 "" H 3825 2475 50  0000 C CNN
+	1    4450 2300
+	1    0    0    -1  
+$EndComp
+Text GLabel 5250 1200 0    39   Input ~ 0
+P9
+Text GLabel 5850 1200 2    39   Input ~ 0
+GND
+Text GLabel 5850 1550 2    39   Input ~ 0
+GND
+Text GLabel 5850 1750 2    39   Input ~ 0
+GND
+Text GLabel 5850 1650 2    39   Input ~ 0
+VCC
+Text GLabel 5850 1850 2    39   Input ~ 0
+VCC
+Text GLabel 5200 1650 0    39   Input ~ 0
+P10
+Text GLabel 5200 1850 0    39   Input ~ 0
+P10
+Wire Wire Line
+	5200 1850 5250 1850
+Wire Wire Line
+	5200 1650 5250 1650
+Wire Notes Line
+	4400 1000 6150 1000
+Wire Notes Line
+	6150 1000 6150 2000
+Wire Notes Line
+	6150 2000 4400 2000
+Wire Notes Line
+	4400 2000 4400 1000
+Text Label 4400 1000 0    79   ~ 0
+BT
+Text GLabel 4900 1450 3    39   Input ~ 0
+P9
+$EndSCHEMATC
