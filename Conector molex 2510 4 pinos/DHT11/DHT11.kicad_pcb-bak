@@ -5,7 +5,7 @@
     (no_connects 205)
     (area 14.375 13.875 40.275001 35.075001)
     (thickness 1.6)
-    (drawings 294)
+    (drawings 295)
     (tracks 630)
     (zones 0)
     (modules 126)
@@ -9204,6 +9204,9 @@
       (net 3 GND))
   )
 
+  (gr_text "Não é necessario espelhar, imagem F.Silks já espelhada...\nNo need to mirror, F.Silks image already mirrored ..." (at 265 105 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_circle (center 177 32) (end 179 32) (layer Edge.Cuts) (width 0.15) (tstamp 598B3D04))
   (gr_circle (center 158 32) (end 160 32) (layer Edge.Cuts) (width 0.15) (tstamp 598B3D03))
   (gr_line (start 180 15) (end 155 15) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 598B3D02))

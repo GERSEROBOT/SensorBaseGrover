@@ -3,7 +3,7 @@
   (general
     (links 415)
     (no_connects 205)
-    (area 14.375 13.875 40.275001 35.075001)
+    (area 14.375 13.875 267.4 185.075001)
     (thickness 1.6)
     (drawings 295)
     (tracks 630)
@@ -14,14 +14,11 @@
 
   (page A4)
   (title_block
-    (title "Sensor DHT11 para Shield Sensor Base Grover GERSE")
+    (title "Modulo Sensor DHT11 - molex 2510 4 pinos")
     (date 2017-07-11)
     (rev 1.2)
-    (company "GERSE - Grupo de Estudos em Robótica e sistemas Embarcados")
-    (comment 1 "Facebook: www.facebook.com/gerserobot/ ")
-    (comment 2 "Instagram: www.instagram.com/gerserobot/  ")
-    (comment 3 "Website: gerserobotica.com")
-    (comment 4 "Projetista: @pedro_ibs (www.instagram.com/pedro_ibs/)")
+    (company "Shield Sensor Base Grover GERSE")
+    (comment 2 "Pedro Igor B. S.")
   )
 
   (layers
