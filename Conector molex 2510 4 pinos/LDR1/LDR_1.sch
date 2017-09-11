@@ -35,14 +35,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Sensor LDR para Shield Sensor Base Grover GERSE"
+Title "Módulo Sensor LDR - molex 2510 4 pinos"
 Date "2017-08-20"
 Rev "1.0"
-Comp "GERSE - Grupo de Estudos em Robótica e sistemas Embarcados"
-Comment1 "Facebook: www.facebook.com/gerserobot/ "
-Comment2 "Instagram: www.instagram.com/gerserobot/  "
-Comment3 "Website: gerserobotica.com"
-Comment4 "Projetista: @pedro_ibs (www.instagram.com/pedro_ibs/)"
+Comp "Shield Sensor Base Grover GERSE"
+Comment1 ""
+Comment2 "Pedro Igor B. S."
+Comment3 ""
+Comment4 ""
 $EndDescr
 $Comp
 L CONN_01X04 P3

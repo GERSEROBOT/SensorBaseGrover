@@ -28,8 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:MY_kicad
-LIBS:16x2
 LIBS:DHT11-cache
 EELAYER 25 0
 EELAYER END
@@ -60,12 +58,12 @@ $Comp
 L CONN_01X04 P1
 U 1 1 594A7750
 P 5400 3150
-F 0 "P1" H 5400 3400 50  0000 C CNN
+F 0 "P1" H 5400 2900 50  0000 C CNN
 F 1 "DHT11" V 5500 3150 50  0000 C CNN
 F 2 "MY_kicad:molex_2510" H 5400 3150 50  0001 C CNN
 F 3 "" H 5400 3150 50  0000 C CNN
 	1    5400 3150
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L R R1
