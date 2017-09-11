@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 update=Sáb 09 Set 2017 15:34:47 BRT
+=======
+update=Ter 05 Set 2017 11:59:23 BRT
+>>>>>>> 6e5c5b2b82b978f1e8402c7784760a91892d62fe
 version=1
 last_client=kicad
 [cvpcb]
@@ -8,7 +12,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../../Documentos/kicad/MY_kicad
+LibDir=../../../Mykicad/MyLib-ALL
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -39,11 +43,14 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/media/gerse-01/Dados/PEDRO/kicad/MY_kicad/MY_kicad
-LibName31=/home/dalek/Documentos/kicad/MY_kicad/16x2
+LibName30=/media/gerse-01/Dados/PEDRO/Mykicad/MyLib-ALL/MyLib-ALL
 [schematic_editor]
 version=1
+<<<<<<< HEAD
 PageLayoutDescrFile=/home/dalek/Dropbox/GIT_pedro-ibs/KiCad/GERSE/SensorBaseGrover/Template/template-GERSE01.kicad_wks
+=======
+PageLayoutDescrFile=/media/gerse-01/Dados/PEDRO/Mykicad/Template/template-GERSE01.kicad_wks
+>>>>>>> 6e5c5b2b82b978f1e8402c7784760a91892d62fe
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -53,7 +60,11 @@ SpiceUseNetNumbers=0
 LabSize=60
 [pcbnew]
 version=1
+<<<<<<< HEAD
 PageLayoutDescrFile=/home/dalek/Dropbox/GIT_pedro-ibs/KiCad/GERSE/SensorBaseGrover/Template/template-GERSE01.kicad_wks
+=======
+PageLayoutDescrFile=/media/gerse-01/Dados/PEDRO/Mykicad/Template/template-GERSE01.kicad_wks
+>>>>>>> 6e5c5b2b82b978f1e8402c7784760a91892d62fe
 LastNetListRead=
 PadDrill=1.00076
 PadDrillOvalY=1.00076

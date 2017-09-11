@@ -28,18 +28,27 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:MyLib-ALL
 LIBS:DHT11-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
+<<<<<<< HEAD
 Title "Módulo DHT11 - molex 2510 4 pinos "
+=======
+Title "Modulo Sensor DHT11 - molex 2510 4 pinos"
+>>>>>>> 6e5c5b2b82b978f1e8402c7784760a91892d62fe
 Date "2017-07-11"
 Rev "1.2"
 Comp "Shield Sensor Base Grover GERSE"
 Comment1 ""
+<<<<<<< HEAD
 Comment2 " Pedro Igor B. S."
+=======
+Comment2 "Pedro Igor B. S."
+>>>>>>> 6e5c5b2b82b978f1e8402c7784760a91892d62fe
 Comment3 ""
 Comment4 ""
 $EndDescr

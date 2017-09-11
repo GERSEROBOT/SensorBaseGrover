@@ -1,8 +1,13 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.2+dfsg1-stable)
 
   (general
+<<<<<<< HEAD
     (links 5)
     (no_connects 0)
+=======
+    (links 415)
+    (no_connects 205)
+>>>>>>> 6e5c5b2b82b978f1e8402c7784760a91892d62fe
     (area 14.375 13.875 267.4 185.075001)
     (thickness 1.6)
     (drawings 7)
@@ -14,7 +19,11 @@
 
   (page A4)
   (title_block
+<<<<<<< HEAD
     (title "Módulo DHT11 - molex 2510 4 pinos ")
+=======
+    (title "Modulo Sensor DHT11 - molex 2510 4 pinos")
+>>>>>>> 6e5c5b2b82b978f1e8402c7784760a91892d62fe
     (date 2017-07-11)
     (rev 1.2)
     (company "Shield Sensor Base Grover GERSE")
